@@ -14,6 +14,7 @@ class Config:
     SUPABASE_KEY: str = os.getenv("SUPABASE_KEY")
     SECRET_KEY: str = os.getenv("SECRET_KEY")
     ALGORITHM: str = os.getenv("ALGORITHM")
+    TOKEN_EXPIRES_IN_MINUTES: int = 60
 
 
 config = Config()
